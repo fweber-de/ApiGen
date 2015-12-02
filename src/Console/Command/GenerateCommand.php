@@ -188,6 +188,7 @@ class GenerateCommand extends AbstractCommand
                 InputOption::VALUE_NONE,
                 'Generate tree view of classes, interfaces, traits and exceptions.'
             )
+            ->addOption('overwrite', 'o', InputOption::VALUE_NONE, 'Overwrite destination dir.')
 
             /**
              * @deprecated since version 4.2, to be removed in 5.0
